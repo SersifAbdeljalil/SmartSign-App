@@ -1,0 +1,6 @@
+# Ignorer les modèles ML volumineux
+model/*.pkl
+
+# Ignorer les datasets volumineux
+data/*.csv
+asl_dataset_complete.csv
