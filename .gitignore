@@ -1,6 +1,11 @@
 # Ignorer les modèles ML volumineux
 model/*.pkl
+# Exclure les modèles et encoders
+HandSense_project/model_mobile/asl_model_mobile.pkl
+HandSense_project/model_mobile/asl_model.onnx
+HandSense_project/model_mobile/label_encoder.pkl
+HandSense_project/model_mobile/scaler.pkl
 
 # Ignorer les datasets volumineux
-data/*.csv
+*.csv
 asl_dataset_complete.csv
